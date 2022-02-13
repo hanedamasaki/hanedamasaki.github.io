@@ -14,8 +14,8 @@ $("#open").click(function () {
 
 		new Typed('.letter', {
 			strings: [
-				// "^1000Dear&nbsp;&nbsp;" + content.to,
-				content.recipient + "^200<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" +
+				// "^1000Dear&nbsp;&nbsp;" + content.to,	
+				content.recipient + "^400&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" +
 				content.text + "<br><br><p style='float:right; display:block; width:" + 
 				content.sign + "px;'>^1000" +
 				content.from + "^200</p>"
